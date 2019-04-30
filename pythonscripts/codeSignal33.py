@@ -67,7 +67,7 @@ def permuteHelper(inputArray, chosen, length):
 # Main function using helper functions to answer Code Signal #33
 
 def stringsRearrangement(inputArray):
-    length = len(inputArray)
+    length = len(inputArray)                   
     return permuteHelper(inputArray,[],length) # pass empty list as first choice
 
 print(stringsRearrangement(inputArray1))
